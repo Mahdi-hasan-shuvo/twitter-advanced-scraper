@@ -12,8 +12,7 @@ logger = getLogger(__name__)
 logger.propagate = False
  
 clear()
-# os.environ['ALL_PROXY'] = "socks5h://3Ixf4HKMEZ-zone-star-region-US:39179679@na.a79a246354fe7beb.abcproxy.vip:4950"
-
+# os.environ['ALL_PROXY'] = "socks5h://3Ixf4HKMEZ-zone-star-region-US:39179679@na."
 
 __formate_coki__ = lambda x: {cookie.split('=', 1)[0].strip(): cookie.split('=', 1)[1].strip() for cookie in x.split(';') if '=' in cookie}
 cookies_list=[
