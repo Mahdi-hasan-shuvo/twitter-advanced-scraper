@@ -205,10 +205,6 @@ class twter_profile(TwitterSearchTimeline):
         return return_data
 
 
-
-
-
-
 ck=twter_profile()
 def main(search_topi:list,count,reaction_count,views_count,comment_count,mathods='TwitterSearchTimeline',number_lop=5):
     tweets = []
